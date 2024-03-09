@@ -1,0 +1,32 @@
+*{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+body {
+    background-color: #FFECD1;
+}
+
+#display {
+    background-color: #00152495;
+    border: transparent;
+    color: white;
+    width: 90%;
+    border-radius: 2Opx;
+}
+
+.key{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.key button {
+    background-color: #83C5BE;
+    border: transparent;
+    border-radius: 50px;
+    height: 50px;
+    cursor: pointer;
+}
