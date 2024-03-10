@@ -9,21 +9,30 @@ body {
 }
 
 #display {
-    background-color: #00152495;
+    background-color: #001524;
     border: transparent;
     color: white;
     width: 90%;
-    border-radius: 2Opx;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    height: 50px;
 }
 
-.key{
+#key{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
 }
 
-.key button {
+#numberKey {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+button {
     background-color: #83C5BE;
     border: transparent;
     border-radius: 50px;

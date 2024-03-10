@@ -1,7 +1,6 @@
 let displayJS = document.getElementById("display").value
-const clearButton = document.getElementById("clear-button");
-let clavier = document.getElementsByClassName('key')
-
+let clearButton = document.getElementById("clear-button");
+let changeModeBTN = document.getElementById("changeMode")
 
 function addToDisplay(input){
     displayJS += input
@@ -20,11 +19,23 @@ function calculate(){
     }
 }
 
+function ec(){
+    const okBTN = document.getElementById("okBTN")
+    document.getElementById("keyMode").style.display = "none"
+    document.getElementById("display").setAttribute("placeholder", "m (Kg) =")
+    
+}
+
 clearButton.addEventListener("click", () => {
     displayJS = "";
     document.getElementById("display").value = displayJS;
 });
 
-function changeMode(){
-    clavier.style.display = "none"
-}
+changeModeBTN.addEventListener("click", () => {
+    document.getElementById("key").style.display = "none";
+    document.getElementById()
+    displayJS = "";
+    document.getElementById("display").value = displayJS;    
+})
+
+
