@@ -9,7 +9,7 @@
 <body>
     <script src="scipts.js" defer></script>
     <input id="display" readonly>
-    <div id="key" style="display: none;">
+    <div id="key">
         <button onclick="addToDisplay('9')">9</button>
         <button onclick="addToDisplay('8')">8</button>
         <button onclick="addToDisplay('7')">7</button>
@@ -29,7 +29,7 @@
         <button id="clear-button">c</button>
         <button onclick="calculate()">=</button>
     </div>
-    <div id="keyMode">
+    <div id="keyMode" style="display: none;">
         <button onclick="ec()">Ec</button>
         <button></button>
         <button></button>
@@ -39,7 +39,7 @@
         <button></button>
         <button id="clear-button">c</button>
     </div>
-    <div id="numberKey">
+    <div id="numberKey" style="display: none;">
         <button onclick="addToDisplay('9')">9</button>
         <button onclick="addToDisplay('8')">8</button>
         <button onclick="addToDisplay('7')">7</button>
